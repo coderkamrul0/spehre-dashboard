@@ -1,0 +1,14 @@
+.CircularProgressbar-path {
+    stroke: #6B62FF;
+  }
+  
+  .CircularProgressbar-trail {
+    stroke: #DFDCFE;
+  }
+  
+  .CircularProgressbar-text {
+    fill: #282074;
+    text-anchor: middle; /* Center the text horizontally */
+    dominant-baseline: middle; /* Center the text vertically */
+  }
+  

@@ -11,7 +11,7 @@ const Sidebar = () => {
   return (
     <div className="border-r border-r-[#e1d4ee] h-[100vh]">
         {/* Title  */}
-      <div className="h-12 flex justify-center items-center shadow-md">
+      <div className="h-14 flex justify-center items-center shadow-md">
         <h6 className="font-bold text-lg">Sphere</h6>
       </div>
 

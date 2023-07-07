@@ -8,6 +8,11 @@ import {
   FaPen,
   FaSuitcase,
   FaGraduationCap,
+  FaIcons,
+  FaICursor,
+  FaIcicles,
+  FaIdBadge,
+  FaAccessibleIcon,
 } from "react-icons/fa";
 import ToggleButton from "../ToggleButton/ToggleButton";
 import CircleProgress from "../CircleProgress/CircleProgress";
@@ -54,13 +59,13 @@ const Home = () => {
             <div className="w-1/3 -mt-20 shadow-md">
               <div className="flex flex-col items-center">
                 <img
-                  src="./profile1.jpg"
+                  src="./user.jpeg"
                   className="h-36 w-36 rounded-full border-4"
                   alt=""
                 />
-                <p className="font-bold text-lg">Ayaat Khanna</p>
+                <p className="font-bold text-[#48476d] text-lg">Ayaat Khanna</p>
                 <p className="text-sm text-gray-400">UI/UX Designer</p>
-                <div className="flex items-center gap-3 text-sm">
+                <div className="flex items-center gap-3 text-sm text-[#48476d]">
                   <div className="flex items-center">
                     <FaUsers />
                     <p>21 Followers</p>
@@ -71,26 +76,26 @@ const Home = () => {
               <div className="flex flex-col gap-5 pt-5">
                 <div className="px-5">
                   <div className="flex justify-between gap-3">
-                    <p className="font-bold text-lg">
+                    <p className="font-bold text-[#48476d] text-lg">
                       Make my profile visible to employers
                     </p>
                     <div>
                       <ToggleButton />
                     </div>
                   </div>
-                  <p>
+                  <p className="text-gray-400">
                     Your profile and career gools will appear when employers
                     search our database for candidates
                   </p>
                 </div>
                 <div className="px-5">
                   <div className="flex justify-between gap-3">
-                    <p className="font-bold text-lg">Online Links</p>
+                    <p className="font-bold text-[#48476d] text-lg">Online Links</p>
                     <div>
                       <FaPlusCircle size={26} className="text-indigo-500" />
                     </div>
                   </div>
-                  <p>
+                  <p className="text-gray-400">
                     Added your online portfolio links to increase your profile
                     strength
                   </p>
@@ -103,7 +108,7 @@ const Home = () => {
               </div>
 
               <div className="flex gap-2 flex-col justify-center items-center bg-[#e7e6f5] mx-5 rounded-lg py-3 my-3">
-                <p>Wheel of Opportunities</p>
+                <p className="font-bold text-[#48476d]">Wheel of Opportunities</p>
                 <CircleProgress />
               </div>
 
@@ -149,7 +154,7 @@ const Home = () => {
                         origins to identify them in sections 1.10.32 and 1.10.33
                         of the aforementione
                       </p>
-                      <div className=" h-fit bg-indigo-600 rounded-full p-3">
+                      <div className=" h-fit bg-[#7D78FF] rounded-full p-3">
                         <FaPen size={20} className="text-white" />
                       </div>
                     </div>
@@ -160,8 +165,8 @@ const Home = () => {
                     <p className="font-bold text-xl">Experience</p>
                     <div className="flex justify-between py-5">
                       <div className="flex gap-5">
-                        <div className="bg-indigo-300 h-fit p-3 rounded-full">
-                          <FaSuitcase size={30} className="text-indigo-600" />
+                        <div className="bg-[#E1DBFF] h-fit p-3 rounded-full">
+                          <FaSuitcase size={30} className="text-[#7D78FF]" />
                         </div>
                         <div>
                           <p className="font-semibold">
@@ -184,10 +189,10 @@ const Home = () => {
                       </div>
                       <div className="flex gap-3">
                         <div>
-                          <FaPlusCircle size={26} className="text-indigo-500" />
+                          <FaPlusCircle size={26} className="text-[#7D78FF]" />
                         </div>
                         <div>
-                          <div className=" w-fit bg-indigo-600 rounded-full p-2">
+                          <div className=" w-fit bg-[#7D78FF] rounded-full p-2">
                             <FaPen size={10} className="text-white" />
                           </div>
                         </div>
@@ -196,8 +201,8 @@ const Home = () => {
                     <hr />
                     <div className="flex justify-between pt-5">
                       <div className="flex gap-5">
-                        <div className="bg-indigo-300 h-fit p-3 rounded-full">
-                          <FaGraduationCap size={30} className="text-indigo-600" />
+                        <div className="bg-[#E1DBFF] h-fit p-3 rounded-full">
+                          <FaGraduationCap size={30} className="text-[#7D78FF]" />
                         </div>
                         <div>
                           <p className="font-semibold">
@@ -214,10 +219,10 @@ const Home = () => {
                       </div>
                       <div className="flex gap-3">
                         <div>
-                          <FaPlusCircle size={26} className="text-indigo-500" />
+                          <FaPlusCircle size={26} className="text-[#7D78FF]" />
                         </div>
                         <div>
-                          <div className=" w-fit bg-indigo-600 rounded-full p-2">
+                          <div className=" w-fit bg-[#7D78FF] rounded-full p-2">
                             <FaPen size={10} className="text-white" />
                           </div>
                         </div>

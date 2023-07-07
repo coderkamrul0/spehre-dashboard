@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BiLogoMicrosoft,BiLogoChrome,BiSolidEnvelope, BiChart,BiSolidUser  } from "react-icons/bi";
-import { FaGreaterThan } from "react-icons/fa";
+import { FaBolt, FaGreaterThan } from "react-icons/fa";
 
 
 
@@ -12,7 +12,7 @@ const Sidebar = () => {
     <div className="border-r border-r-[#e1d4ee] h-[100vh]">
         {/* Title  */}
       <div className="h-14 flex justify-center items-center shadow-md">
-        <h6 className="font-bold text-lg">Sphere</h6>
+        <h6 className="font-bold text-lg flex items-center gap-1"> <FaBolt className="text-[#7671FF]"/>Sphere</h6>
       </div>
 
       <div>
@@ -30,30 +30,30 @@ const Sidebar = () => {
         <div>
             <div className="mx-5 py-5">
                 <h4 className="font-bold text-xl">Communities Feed</h4>
-                <div className="flex flex-col gap-5 py-5 px-5">
+                <div className="flex flex-col gap-5 py-5 px-3">
                     <div className="flex items-center gap-2">
-                        <img src="./profile1.jpg" className="h-12 rounded-full" alt="" />
+                        <img src="./user2.png" className="h-12 rounded-full" alt="" />
                         <div>
                             <p className="font-semibold">Indonesia UI Designer</p>
                             <p>734 member</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-2">
-                        <img src="./profile1.jpg" className="h-12 rounded-full" alt="" />
+                        <img src="./user3.png" className="h-12 rounded-full" alt="" />
                         <div>
                             <p className="font-semibold">Indonesia UI Researcher</p>
                             <p>734 member</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-2">
-                        <img src="./profile1.jpg" className="h-12 rounded-full" alt="" />
+                        <img src="./user4.png" className="h-12 rounded-full" alt="" />
                         <div>
                             <p className="font-semibold">Prototyping Club</p>
                             <p>734 member</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-2">
-                        <img src="./profile1.jpg" className="h-12 rounded-full" alt="" />
+                        <img src="./user5.png" className="h-12 rounded-full" alt="" />
                         <div>
                             <p className="font-semibold">Indonesia UI Designer</p>
                             <p>734 member</p>

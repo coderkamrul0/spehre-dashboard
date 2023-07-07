@@ -8,11 +8,7 @@ import {
   FaPen,
   FaSuitcase,
   FaGraduationCap,
-  FaIcons,
-  FaICursor,
-  FaIcicles,
-  FaIdBadge,
-  FaAccessibleIcon,
+
 } from "react-icons/fa";
 import ToggleButton from "../ToggleButton/ToggleButton";
 import CircleProgress from "../CircleProgress/CircleProgress";
@@ -44,6 +40,7 @@ const Home = () => {
 
           <div>
             <img src="./profile1.jpg" className="h-10 rounded-full" alt="" />
+
           </div>
         </div>
       </div>
@@ -52,7 +49,10 @@ const Home = () => {
       <div>
         <div>
           <div>
-            <img src="./banner.jpg" className="h-40 w-full" alt="" />
+            <img src="./banner.jpg" className="h-40 w-full relative" alt="" />
+            <div className="absolute right-10 top-20 bg-white p-2 rounded-full cursor-pointer">
+                <FaPen className="text-indigo-500"/>
+            </div>
           </div>
           <div className="flex gap-4">
             {/* Profile  */}
@@ -60,7 +60,7 @@ const Home = () => {
               <div className="flex flex-col items-center">
                 <img
                   src="./user.jpeg"
-                  className="h-36 w-36 rounded-full border-4"
+                  className="h-36 w-36 rounded-full border-4 z-10"
                   alt=""
                 />
                 <p className="font-bold text-[#48476d] text-lg">Ayaat Khanna</p>
@@ -91,7 +91,7 @@ const Home = () => {
                 <div className="px-5">
                   <div className="flex justify-between gap-3">
                     <p className="font-bold text-[#48476d] text-lg">Online Links</p>
-                    <div>
+                    <div className="cursor-pointer">
                       <FaPlusCircle size={26} className="text-indigo-500" />
                     </div>
                   </div>
@@ -154,7 +154,7 @@ const Home = () => {
                         origins to identify them in sections 1.10.32 and 1.10.33
                         of the aforementione
                       </p>
-                      <div className=" h-fit bg-[#7D78FF] rounded-full p-3">
+                      <div className=" h-fit bg-[#7D78FF] cursor-pointer rounded-full p-3">
                         <FaPen size={20} className="text-white" />
                       </div>
                     </div>

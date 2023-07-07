@@ -9,7 +9,7 @@ import { FaBolt, FaGreaterThan } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
-    <div className="border-r border-r-[#e1d4ee] h-[100vh]">
+    <div className="border-r border-r-[#e1d4ee] h-fit">
         {/* Title  */}
       <div className="h-14 flex justify-center items-center shadow-md">
         <h6 className="font-bold text-lg flex items-center gap-1"> <FaBolt className="text-[#7671FF]"/>Sphere</h6>
@@ -34,29 +34,29 @@ const Sidebar = () => {
                     <div className="flex items-center gap-2">
                         <img src="./user2.png" className="h-12 rounded-full" alt="" />
                         <div>
-                            <p className="font-semibold">Indonesia UI Designer</p>
-                            <p>734 member</p>
+                            <p className="font-semibold text-[#48476d]">Indonesia UI Designer</p>
+                            <p className="text-[#b0aeec]">734 member</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-2">
                         <img src="./user3.png" className="h-12 rounded-full" alt="" />
                         <div>
-                            <p className="font-semibold">Indonesia UI Researcher</p>
-                            <p>734 member</p>
+                            <p className="font-semibold text-[#48476d]">Indonesia UI Researcher</p>
+                            <p className="text-[#b0aeec]">734 member</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-2">
                         <img src="./user4.png" className="h-12 rounded-full" alt="" />
                         <div>
-                            <p className="font-semibold">Prototyping Club</p>
-                            <p>734 member</p>
+                            <p className="font-semibold text-[#48476d]">Prototyping Club</p>
+                            <p className="text-[#b0aeec]">734 member</p>
                         </div>
                     </div>
                     <div className="flex items-center gap-2">
                         <img src="./user5.png" className="h-12 rounded-full" alt="" />
                         <div>
-                            <p className="font-semibold">Indonesia UI Designer</p>
-                            <p>734 member</p>
+                            <p className="font-semibold text-[#48476d]">Indonesia UI Designer</p>
+                            <p className="text-[#b0aeec]">734 member</p>
                         </div>
                     </div>
                     <div className="flex justify-center">
